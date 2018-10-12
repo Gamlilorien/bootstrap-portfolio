@@ -16,6 +16,33 @@
     padding: 0 20px 0 20px;
 }
 
+.portfolioRow {
+    margin-top: 30px;
+}
+
+/* Padding for portfolio and form within section area */
+.card-deck {
+    padding: 0 0 22px 0;
+}
+
+form {
+    padding: 22px 0 22px 0;
+}
+
+.card-title {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: rgb(151, 151, 151);
+    line-height: 0.3;
+    /* position: relative;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    padding: 20px;
+    background-color: rgba(117, 253, 255, 0.95);
+    }
+
 /* default attributes for all elements */
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -53,7 +80,7 @@ p {
 .title {
     color: #4aaaa5;
     font-weight: bold;
-    width: 900px;
+    width: 100%;
     margin: auto;
 
 }
@@ -70,7 +97,7 @@ section {
     display: block;
     background-color: #ffffff;
     /* TRBL */
-    margin: 38px 0px 38px 0px;
+    margin: 38px 0px 88px 0px;
     border: 1px solid #dddddd;
 }
 
@@ -86,4 +113,10 @@ footer {
     border-top: 8px solid #4aaaa5;
     margin-top: 22px;
     line-height: 36px;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
 }
