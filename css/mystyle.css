@@ -36,12 +36,16 @@ form {
     color: rgb(151, 151, 151);
     line-height: 0.3;
     /* position: relative;
-    top: -50px;
+    top: -30px;
     left: 50%;
     transform: translate(-50%, -50%); */
     padding: 20px;
     background-color: rgba(117, 253, 255, 0.95);
     }
+
+p.card-text {
+    padding-top: 0;
+}
 
 /* default attributes for all elements */
 body {
