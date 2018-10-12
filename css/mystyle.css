@@ -2,12 +2,18 @@
     height: 150px;
     width: 150px;
     /* TBLR */
-    margin: 0 20px 0 0;
-    padding-top: 7px;
+    margin: 0 12px 0 0;
+    /* padding-top: 7px; */
 }
 
 .nav-right {
     float: right;
+}
+
+/* Added this to allow proper margin around collumn/row content */
+.row {
+    /* TRBL */
+    padding: 0 20px 0 20px;
 }
 
 /* default attributes for all elements */
@@ -62,11 +68,9 @@ nav {
 
 section {
     display: block;
-    margin: auto;
     background-color: #ffffff;
     /* TRBL */
     margin: 38px 0px 38px 0px;
-    padding: 0px 22px 22px 22px;
     border: 1px solid #dddddd;
 }
 
